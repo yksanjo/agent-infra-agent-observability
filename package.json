@@ -1,0 +1,3 @@
+module github.com/yksanjo/agent-infra-agent-observability
+
+go 1.21
