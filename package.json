@@ -1,0 +1,23 @@
+{
+  "name": "agent-infra-agent-observability",
+  "version": "1.0.0",
+  "description": "Observability platform for AI agent monitoring",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "infrastructure",
+    "agent-observability"
+  ],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yksanjo/agent-infra-agent-observability.git"
+  }
+}
