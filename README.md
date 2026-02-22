@@ -1,60 +1,84 @@
-# @agent-infra/agent-observability
+# agent-infra-agent-observability
 
-**Monitoring & Observability Platform for AI Agents**
+## Detailed Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+agent-infra-agent-observability is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## Features
+## Problem Statement
 
-- 🔧 Production-ready implementation
-- 📦 Easy to integrate  
-- 🧪 Comprehensive test coverage
-- 📚 Well-documented API
-- 🚀 Performance optimized
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## Installation
+## Solution Overview
 
-```bash
-npm install @agent-infra/agent-observability
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## Quick Start
+## Getting Started
 
+### Prerequisites
 
-```go
-import "github.com/yksanjo/agent-infra-agent-observability"
+- Git
+- Project runtime/toolchain for this repo
 
-func main() {
-    instance := AgentObservability.New(AgentObservability.Config{})
-    instance.Initialize()
-    result := instance.Execute(input)
-}
-```
-
-
-## API Reference
-
-### `AgentObservability`
-
-Main class for agent observability functionality.
-
-#### Methods
-
-- `initialize()` - Initialize the component
-- `execute(input)` - Execute main logic  
-- `configure(config)` - Update configuration
-
-## Testing
+### Local Setup
 
 ```bash
+npm ci
+npm run lint
 npm test
+npm run build
 ```
 
-## License
+## Usage
 
-MIT - See [LICENSE](LICENSE) for details
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
 
 ## Support
 
-- Issues: https://github.com/yksanjo/agent-infra-agent-observability/issues
-- Discussions: https://github.com/yksanjo/agent-infra-agent-observability/discussions
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
